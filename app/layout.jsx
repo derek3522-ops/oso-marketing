@@ -16,7 +16,13 @@ export default function RootLayout({ children }) {
               <Link href="/" className="text-gray-400 hover:text-oso-orange font-bold">HOME</Link>
               <Link href="/about" className="text-gray-400 hover:text-oso-orange font-bold">ABOUT US</Link>
               <Link href="/contact" className="text-gray-400 hover:text-oso-orange font-bold">CONTACT</Link>
-              <div className="mx-4 text-gray-600 font-bold text-xl">OSO</div>
+              <div className="mx-4">
+                <img 
+                  src="/oso-atm-logo-header.png" 
+                  alt="OSO ATM" 
+                  className="h-12 w-auto"
+                />
+              </div>
               <Link href="/atms" className="text-oso-orange hover:text-orange-600 font-bold">ATMS</Link>
             </nav>
           </div>
