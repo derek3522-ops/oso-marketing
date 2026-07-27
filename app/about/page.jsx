@@ -16,25 +16,25 @@ export default function About() {
             <h1 className="text-5xl font-bold mb-6 text-white">ABOUT OSO ATM</h1>
             <div className="space-y-4 text-white">
               <p>
-                OSO ATM is nationwide ATM company providing ATM service to customers in all 50 states. OSO is dedicated to serving our customers, distributors, ATM affiliates with the most competitive pricing and service to help maximize profits.
+                OSO ATM Is A Nationwide ATM Company Providing ATM Services To Customers In All 50 States. OSO Is Dedicated To Serving Our Customers, Distributors, And ATM Affiliates With The Most Competitive Pricing And Service To Help Maximize Profits.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-white mr-3">•</span>
                   <span>
-                    <strong>Honesty and transparency</strong> – with over a 99.5% retention rate, OSO has built a reputation of trust and honesty in this industry.
+                    <strong>Honesty And Transparency</strong> – With Over A 99.5% Retention Rate, OSO Has Built A Reputation Of Trust And Honesty In This Industry
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-white mr-3">•</span>
                   <span>
-                    <strong>Service</strong> – we offer 24-hour tech support and online tools to help manage your business more efficiently
+                    <strong>Service</strong> – We Offer Unmatched Tech Support And Online Tools To Help Manage Your Business More Efficiently
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-white mr-3">•</span>
                   <span>
-                    Not just another company, but a partner helping you grow your business.
+                    <strong>Growth</strong> – Not Just Another Company, But A Partner Helping You To Grow Your Business
                   </span>
                 </li>
               </ul>
