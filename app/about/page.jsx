@@ -16,25 +16,25 @@ export default function About() {
             <h1 className="text-5xl font-bold mb-6 text-white">ABOUT OSO ATM</h1>
             <div className="space-y-4 text-white">
               <p>
-                OSO ATM Is A Nationwide ATM Company Providing ATM Services To Customers In All 50 States. OSO Is Dedicated To Serving Our Customers, Distributors, And ATM Affiliates With The Most Competitive Pricing And Service To Help Maximize Profits.
+                OSO ATM Is A Nationwide ATM Provider Delivering Reliable, High-Performance ATM Services Across All 50 States. We Are Committed To Supporting Our Customers, Distributors, And Affiliates With Competitive Pricing, Cutting-Edge Tools, And Exceptional Service—Helping You Maximize Profitability And Grow With Confidence.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-white mr-3">•</span>
                   <span>
-                    <strong>Honesty And Transparency</strong> – With Over A 99.5% Retention Rate, OSO Has Built A Reputation Of Trust And Honesty In This Industry
+                    <strong>Honesty & Transparency</strong> – With A 99.5%+ Retention Rate, OSO Has Earned A Reputation Built On Trust, Integrity, And Long-Term Partnerships
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-white mr-3">•</span>
                   <span>
-                    <strong>Service</strong> – We Offer Unmatched Tech Support And Online Tools To Help Manage Your Business More Efficiently
+                    <strong>Unmatched Service</strong> – Our 24/7 Technical Support And Powerful Online Management Tools Make Running Your ATM Business Simple And Efficient
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-white mr-3">•</span>
                   <span>
-                    <strong>Growth</strong> – Not Just Another Company, But A Partner Helping You To Grow Your Business
+                    <strong>Growth-Focused Partnership</strong> – We’re More Than A Provider—We’re A Partner Dedicated To Helping You Scale And Succeed
                   </span>
                 </li>
               </ul>
