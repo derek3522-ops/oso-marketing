@@ -1,10 +1,11 @@
 export default function About() {
   return (
     <div className="bg-oso-dark min-h-screen">
-      <section 
-        className="py-20 bg-cover bg-center relative min-h-screen flex items-center"
+     <section 
+        className="py-20 bg-cover relative min-h-screen flex items-center"
         style={{
           backgroundImage: 'url(/Bear_Background.png)',
+          backgroundPosition: 'right center',
         }}
       >
         {/* Overlay for text readability */}
