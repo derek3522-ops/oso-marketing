@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  background: #1a1a1a;
+  color: #666;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.btn-primary {
+  @apply bg-oso-orange text-white px-6 py-3 rounded font-bold hover:bg-orange-600 transition inline-block;
+}
+
+.btn-outline {
+  @apply border-2 border-oso-orange text-oso-orange px-6 py-3 rounded font-bold hover:bg-oso-orange hover:text-white transition;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* Navigation */
+header {
+  background: #0a0a0a;
+  border-bottom: 1px solid #333;
+  padding: 1rem 0;
+}
+
+nav {
+  @apply flex justify-center gap-8 items-center;
+}
+
+nav a {
+  color: #999;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #FF7A3D;
+}
+
+/* Footer */
+footer {
+  background: #0a0a0a;
+  border-top: 1px solid #333;
+  padding: 2rem 0;
+  text-align: center;
+  color: #666;
+  margin-top: 4rem;
+}
+
+footer .logo {
+  margin-bottom: 1rem;
+}
+
+footer .contact-info {
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+footer .social-icons a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #FF7A3D;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: background 0.3s;
+}
+
+footer .social-icons a:hover {
+  background: #ff6b1f;
+}
