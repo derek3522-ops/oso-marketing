@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Facebook, Instagram, Linkedin, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -20,7 +20,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // For now, just show success. In production, send to an API endpoint
     console.log('Contact form submitted:', formData);
     setSubmitted(true);
     setTimeout(() => {
@@ -103,8 +102,8 @@ export default function Contact() {
             {/* Contact Info */}
             <div className="bg-white rounded p-8 h-fit">
               <h3 className="text-lg font-bold text-black mb-6">General Enquiries</h3>
-              <div className="mb-8">
-                <div className="flex items-center mb-3">
+              <div className="space-y-4">
+                <div className="flex items-center">
                   <Phone className="text-oso-orange mr-3" size={20} />
                   <a href="tel:8666724861" className="text-oso-orange font-bold hover:text-orange-600">
                     866-OSO-ATM1
@@ -116,19 +115,6 @@ export default function Contact() {
                     sales@osoatm.com
                   </a>
                 </div>
-              </div>
-
-              <h3 className="text-lg font-bold text-black mb-4">Social Media Outlets</h3>
-              <div className="flex gap-3">
-                <a href="https://facebook.com" className="w-10 h-10 bg-oso-orange rounded flex items-center justify-center text-white hover:bg-orange-600">
-                  <Facebook size={20} />
-                </a>
-                <a href="https://instagram.com" className="w-10 h-10 bg-oso-orange rounded flex items-center justify-center text-white hover:bg-orange-600">
-                  <Instagram size={20} />
-                </a>
-                <a href="https://linkedin.com" className="w-10 h-10 bg-oso-orange rounded flex items-center justify-center text-white hover:bg-orange-600">
-                  <Linkedin size={20} />
-                </a>
               </div>
             </div>
           </div>
