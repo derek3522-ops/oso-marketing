@@ -1,0 +1,139 @@
+'use client';
+
+import { useState } from 'react';
+import { Facebook, Instagram, Linkedin, Phone, Mail } from 'lucide-react';
+
+export default function Contact() {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    phone: '',
+    email: '',
+    message: '',
+  });
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // For now, just show success. In production, send to an API endpoint
+    console.log('Contact form submitted:', formData);
+    setSubmitted(true);
+    setTimeout(() => {
+      setSubmitted(false);
+      setFormData({ firstName: '', lastName: '', phone: '', email: '', message: '' });
+    }, 3000);
+  };
+
+  return (
+    <div className="bg-oso-dark min-h-screen">
+      <section className="py-20 bg-gradient-to-r from-oso-orange to-orange-600">
+        <div className="container">
+          <div className="grid grid-cols-3 gap-8">
+            {/* Form */}
+            <div className="col-span-2">
+              <h1 className="text-4xl font-bold mb-4 text-white">Contact us!</h1>
+              <p className="text-white mb-8">Please fill out the form below.</p>
+
+              {submitted && (
+                <div className="bg-green-500 text-white p-4 rounded mb-6">
+                  Thank you! We'll be in touch soon.
+                </div>
+              )}
+
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div className="grid grid-cols-2 gap-4">
+                  <input
+                    type="text"
+                    name="firstName"
+                    placeholder="First name"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                    className="bg-white text-black px-4 py-3 rounded placeholder-gray-500"
+                    required
+                  />
+                  <input
+                    type="text"
+                    name="lastName"
+                    placeholder="Last Name"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                    className="bg-white text-black px-4 py-3 rounded placeholder-gray-500"
+                    required
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="bg-white text-black px-4 py-3 rounded placeholder-gray-500"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address*"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="bg-white text-black px-4 py-3 rounded placeholder-gray-500"
+                    required
+                  />
+                </div>
+                <textarea
+                  name="message"
+                  placeholder="MESSAGE"
+                  value={formData.message}
+                  onChange={handleChange}
+                  rows="6"
+                  className="w-full bg-white text-black px-4 py-3 rounded placeholder-gray-500"
+                ></textarea>
+                <button type="submit" className="btn-primary">
+                  SEND
+                </button>
+              </form>
+            </div>
+
+            {/* Contact Info */}
+            <div className="bg-white rounded p-8 h-fit">
+              <h3 className="text-lg font-bold text-black mb-6">General Enquiries</h3>
+              <div className="mb-8">
+                <div className="flex items-center mb-3">
+                  <Phone className="text-oso-orange mr-3" size={20} />
+                  <a href="tel:8666724861" className="text-oso-orange font-bold hover:text-orange-600">
+                    866-OSO-ATM1
+                  </a>
+                </div>
+                <div className="flex items-center">
+                  <Mail className="text-oso-orange mr-3" size={20} />
+                  <a href="mailto:sales@osoatm.com" className="text-oso-orange font-bold hover:text-orange-600">
+                    sales@osoatm.com
+                  </a>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-bold text-black mb-4">Social Media Outlets</h3>
+              <div className="flex gap-3">
+                <a href="https://facebook.com" className="w-10 h-10 bg-oso-orange rounded flex items-center justify-center text-white hover:bg-orange-600">
+                  <Facebook size={20} />
+                </a>
+                <a href="https://instagram.com" className="w-10 h-10 bg-oso-orange rounded flex items-center justify-center text-white hover:bg-orange-600">
+                  <Instagram size={20} />
+                </a>
+                <a href="https://linkedin.com" className="w-10 h-10 bg-oso-orange rounded flex items-center justify-center text-white hover:bg-orange-600">
+                  <Linkedin size={20} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
