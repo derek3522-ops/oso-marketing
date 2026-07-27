@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
                 <img 
                   src="/oso-atm-logo-header.png" 
                   alt="OSO ATM" 
-                  className="h-16 w-auto"
+                  className="h-20 w-auto"
                 />
               </div>
               <Link href="/contact" className="text-gray-400 hover:text-oso-orange font-bold">CONTACT</Link>
