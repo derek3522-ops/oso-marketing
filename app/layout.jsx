@@ -34,11 +34,11 @@ export default function RootLayout({ children }) {
 
         <footer>
           <div className="container text-center">
-            <div className="mb-4">
+           <div className="mb-4 flex justify-center">
               <img 
                 src="/OSO-ATM-Footer.png" 
                 alt="OSO ATM" 
-                className="h-12 w-auto"
+                className="h-20 w-auto"
               />
             </div>
             <p className="text-oso-orange font-bold mb-1">866-OSO-ATM1</p>
