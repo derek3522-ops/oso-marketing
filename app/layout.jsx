@@ -17,12 +17,7 @@ export default function RootLayout({ children }) {
               <Link href="/" className="text-gray-400 hover:text-oso-orange font-bold">HOME</Link>
               <Link href="/about" className="text-gray-400 hover:text-oso-orange font-bold">ABOUT US</Link>
               <Link href="/contact" className="text-gray-400 hover:text-oso-orange font-bold">CONTACT</Link>
-              <div className="mx-4 text-gray-600">
-                <svg className="w-12 h-12 inline" viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" strokeWidth="2" />
-                  <text x="50" y="60" textAnchor="middle" fill="currentColor" fontSize="40" fontWeight="bold">OSO</text>
-                </svg>
-              </div>
+              <div className="mx-4 text-gray-600 font-bold">OSO</div>
               <Link href="/atms" className="text-oso-orange hover:text-orange-600 font-bold">ATMS</Link>
             </nav>
           </div>
@@ -34,12 +29,7 @@ export default function RootLayout({ children }) {
 
         <footer>
           <div className="container">
-            <div className="mb-4">
-              <svg className="w-16 h-16 inline" viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="48" fill="none" stroke="#FF7A3D" strokeWidth="2" />
-                <text x="50" y="60" textAnchor="middle" fill="#FF7A3D" fontSize="40" fontWeight="bold">OSO</text>
-              </svg>
-            </div>
+            <div className="mb-4 text-oso-orange font-bold text-2xl">OSO ATM</div>
             <div className="contact-info">
               <p className="text-oso-orange font-bold mb-2">866-OSO-ATM1</p>
               <p className="text-oso-orange font-bold mb-2">sales@osoatm.com</p>
