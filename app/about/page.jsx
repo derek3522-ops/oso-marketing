@@ -4,7 +4,7 @@ export default function About() {
       <section 
         className="py-20 bg-cover bg-center relative min-h-screen flex items-center"
         style={{
-          backgroundImage: 'url(/Bear_Background.png)',
+          backgroundImage: 'url(./Bear_Background.png)',
         }}
       >
         {/* Overlay for text readability */}
