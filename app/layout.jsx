@@ -37,7 +37,6 @@ export default function RootLayout({ children }) {
             <div className="mb-4 text-oso-orange font-bold text-2xl">OSO ATM</div>
             <p className="text-oso-orange font-bold mb-1">866-OSO-ATM1</p>
             <p className="text-oso-orange font-bold mb-1">sales@osoatm.com</p>
-            <p className="text-gray-400 mb-4">Scottsdale, AZ</p>
             <p className="text-gray-600 text-sm">© Copyright 2024 OSO ATM | All Rights Reserved</p>
           </div>
         </footer>
