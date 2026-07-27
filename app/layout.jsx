@@ -34,7 +34,13 @@ export default function RootLayout({ children }) {
 
         <footer>
           <div className="container text-center">
-            <div className="mb-4 text-oso-orange font-bold text-2xl">OSO ATM</div>
+            <div className="mb-4">
+              <img 
+                src="/OSO-ATM-Footer.png" 
+                alt="OSO ATM" 
+                className="h-12 w-auto"
+              />
+            </div>
             <p className="text-oso-orange font-bold mb-1">866-OSO-ATM1</p>
             <p className="text-oso-orange font-bold mb-1">sales@osoatm.com</p>
             <p className="text-gray-600 text-sm">© Copyright 2024 OSO ATM | All Rights Reserved</p>
