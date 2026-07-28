@@ -17,11 +17,11 @@ export default function Home() {
               </p>
               <Link href="/contact" className="btn-primary inline-block">CONTACT US</Link>
             </div>
-            <div className="rounded overflow-hidden h-96">
+            <div className="rounded overflow-hidden h-96 flex items-center justify-center bg-gray-900">
               <img 
                 src="/2atms.png" 
                 alt="OSO ATM Machines" 
-                className="w-full h-full object-cover"
+                className="h-full w-auto object-contain"
               />
             </div>
           </div>
