@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-       <header className="bg-gradient-to-r from-oso-dark via-black to-oso-dark border-b-4 border-oso-orange">
+       <header className="border-b-4 border-oso-orange" style={{backgroundImage: 'linear-gradient(90deg, rgba(255,122,61,0.15) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(255,122,61,0.15) 100%)', backgroundColor: '#0a0a0a'}}>
           <div className="container">
             <nav>
               <Link href="/" className="text-gray-400 hover:text-oso-orange font-bold">HOME</Link>
