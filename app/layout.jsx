@@ -10,9 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header className="bg-gradient-to-r from-oso-dark via-black to-oso-dark border-b-4 border-oso-orange">
-          <div className="container">
-            <nav>
+       <header className="bg-gradient-to-r from-oso-dark via-black to-oso-dark border-b-4 border-oso-orange">
           <div className="container">
             <nav>
               <Link href="/" className="text-gray-400 hover:text-oso-orange font-bold">HOME</Link>
@@ -21,7 +19,7 @@ export default function RootLayout({ children }) {
                 <img 
                   src="/oso-atm-logo-header.png" 
                   alt="OSO ATM" 
-                  className="h-24 w-auto"
+                  className="h-16 w-auto"
                 />
               </div>
               <Link href="/contact" className="text-gray-400 hover:text-oso-orange font-bold">CONTACT</Link>
