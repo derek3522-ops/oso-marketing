@@ -8,12 +8,15 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl font-bold mb-6 text-oso-orange">Welcome to OSO ATM</h1>
+              <h1 className="text-5xl font-bold mb-6 text-oso-orange">Welcome To OSO ATM</h1>
               <p className="text-gray-300 mb-4 text-lg">
-                OSO ATM is a full-service ATM company dedicated to offering the best customer service and superior products in the industry.
+                OSO ATM Is A Full-Service ATM Provider Committed To Delivering Exceptional Customer Service And Top-Quality Equipment
               </p>
               <p className="text-gray-400 mb-8">
-                OSO ATM combines industry knowledge, superior service and state of the art equipment to help earn the most revenue for your ATM locations. With 50+ years of collective experience in ATM sales, service, banking and mobile ATM placement, OSO can assist with every aspect of the ATM industry.
+                We Combine Deep Industry Expertise With Cutting-Edge Technology To Help Maximize Revenue At Every ATM Location. With Over 50 Years Of Combined Experience In ATM Sales, Service, Banking, And Mobile ATM Placement, Our Team Is Equipped To Support You At Every Stage
+              </p>
+              <p className="text-gray-400 mb-8">
+                From Installation To Ongoing Support, OSO ATM Is Your Trusted Partner In The ATM Industry
               </p>
               <Link href="/contact" className="btn-primary inline-block">CONTACT US</Link>
             </div>
