@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header>
+        <header className="bg-gradient-to-r from-oso-dark via-black to-oso-dark border-b-4 border-oso-orange">
+          <div className="container">
+            <nav>
           <div className="container">
             <nav>
               <Link href="/" className="text-gray-400 hover:text-oso-orange font-bold">HOME</Link>
