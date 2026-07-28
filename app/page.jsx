@@ -17,8 +17,12 @@ export default function Home() {
               </p>
               <Link href="/contact" className="btn-primary inline-block">CONTACT US</Link>
             </div>
-            <div className="bg-gray-800 rounded p-4 h-96 flex items-center justify-center">
-              <p className="text-gray-500">[ATM Image Placeholder]</p>
+            <div className="rounded overflow-hidden h-96">
+              <img 
+                src="/2atms.png" 
+                alt="OSO ATM Machines" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
