@@ -17,7 +17,7 @@ export default function Home() {
               </p>
               <Link href="/contact" className="btn-primary inline-block">CONTACT US</Link>
             </div>
-            <div className="rounded overflow-hidden h-96">
+            <div className="rounded overflow-hidden h-screen">
               <img 
                 src="/2atms.png" 
                 alt="OSO ATM Machines" 
