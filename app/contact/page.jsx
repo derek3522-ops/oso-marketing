@@ -35,7 +35,7 @@ export default function Contact() {
         style={{
           backgroundImage: 'url(/BearRoar.png)',
           backgroundSize: 'cover',
-          backgroundPosition: '80% 70%',
+          backgroundPosition: '90% 80%',
         }}
       >
         {/* Dark overlay for text readability */}
