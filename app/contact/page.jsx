@@ -31,7 +31,7 @@ export default function Contact() {
   return (
     <div className="bg-oso-dark">
       <section 
-        className="relative pb-0"
+        className="relative pb-0 m-0"
         style={{
           backgroundImage: 'url(/BearRoar.png)',
           backgroundSize: 'cover',
