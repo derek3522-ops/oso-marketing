@@ -31,7 +31,7 @@ export default function Contact() {
   return (
     <div className="bg-oso-dark min-h-screen">
       <section 
-        className="py-0 relative"
+        className="relative h-fit"
         style={{
           backgroundImage: 'url(/BearRoar.png)',
           backgroundSize: 'cover',
