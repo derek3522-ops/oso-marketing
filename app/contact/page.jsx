@@ -29,9 +29,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-oso-dark min-h-screen">
+    <div className="bg-oso-dark">
       <section 
-        className="relative h-fit"
+        className="relative pb-0"
         style={{
           backgroundImage: 'url(/BearRoar.png)',
           backgroundSize: 'cover',
@@ -40,7 +40,8 @@ export default function Contact() {
       >
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-black opacity-30"></div>
-        <div className="container relative z-10">
+        
+        <div className="container relative z-10 py-20">
           <div className="grid grid-cols-3 gap-8">
             {/* Form */}
             <div className="col-span-2">
