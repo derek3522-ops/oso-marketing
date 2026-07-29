@@ -35,11 +35,11 @@ export default function Contact() {
         style={{
           backgroundImage: 'url(/BearRoar.png)',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'bottom right',
         }}
       >
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="container relative z-10">
           <div className="grid grid-cols-3 gap-8">
             {/* Form */}
