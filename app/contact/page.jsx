@@ -45,7 +45,7 @@ export default function Contact() {
           <div className="grid grid-cols-3 gap-8">
             {/* Form */}
             <div className="col-span-2">
-              <h1 className="text-4xl font-bold mb-4 text-white">Contact us!</h1>
+              <h1 className="text-4xl font-bold mb-6 text-oso-orange">Contact us!</h1>
               <p className="text-white mb-8">Please fill out the form below.</p>
 
               {submitted && (
