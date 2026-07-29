@@ -31,74 +31,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20">
-        <div className="container">
-          <h2 className="text-4xl font-bold mb-12 text-oso-orange">OSO Offers:</h2>
-          <div className="grid grid-cols-2 gap-12">
-            <ul className="space-y-3 text-gray-300">
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>ATM Processing</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>ATM Equipment sales</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>Customized ATM Branding</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>Vault Cash Sourcing</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>Equipment financing</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>First and Second line maintenance</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>Billing and payment</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>ATM Marketing</span>
-              </li>
-            </ul>
-            <ul className="space-y-3 text-gray-300">
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>ATM Business Consulting</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>Turnkey ATM placement</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>Mobile ATMs</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>24hr ATM Monitoring</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-oso-orange mr-3">•</span>
-                <span>ATM Protection – Custom ATM enclosures to help protect your investment</span>
-              </li>
-            </ul>
-          </div>
-          <p className="text-oso-orange text-2xl font-bold mt-12">
-            Let OSO help you run your ATM business more effectively!
-          </p>
-        </div>
-      </section>
-
+     
       {/* Why OSO Section */}
       <section className="py-20 bg-black">
         <div className="container">
