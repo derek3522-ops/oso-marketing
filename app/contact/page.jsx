@@ -45,12 +45,12 @@ export default function Contact() {
           <div className="grid grid-cols-3 gap-8">
             {/* Form */}
             <div className="col-span-2">
-              <h1 className="text-4xl font-bold mb-6 text-oso-orange">Contact us!</h1>
-              <p className="text-white mb-8">Please fill out the form below.</p>
+              <h1 className="text-4xl font-bold mb-6 text-oso-orange">Contact Us!</h1>
+              <p className="text-oso-orange mb-8">Please Fill Out The Form Below</p>
 
               {submitted && (
                 <div className="bg-green-500 text-white p-4 rounded mb-6">
-                  Thank you! We'll be in touch soon.
+                  Thank You! We'll Be In Touch Soon
                 </div>
               )}
 
