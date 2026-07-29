@@ -30,8 +30,17 @@ export default function Contact() {
 
   return (
     <div className="bg-oso-dark min-h-screen">
-      <section className="py-20 bg-gradient-to-r from-oso-orange to-orange-600">
-        <div className="container">
+      <section 
+        className="py-20 relative"
+        style={{
+          backgroundImage: 'url(/BearRoar.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="container relative z-10">
           <div className="grid grid-cols-3 gap-8">
             {/* Form */}
             <div className="col-span-2">
