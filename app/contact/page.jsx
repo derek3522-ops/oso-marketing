@@ -11,20 +11,36 @@ export default function Contact() {
     message: '',
   });
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Contact form submitted:', formData);
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
+    setSending(true);
+    setError('');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) throw new Error('Send failed');
+
+      setSubmitted(true);
       setFormData({ firstName: '', lastName: '', phone: '', email: '', message: '' });
-    }, 3000);
+      setTimeout(() => setSubmitted(false), 6000);
+    } catch (err) {
+      setError('Something went wrong. Please call 866-OSO-ATM1 or email sales@osoatm.com.');
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -51,6 +67,12 @@ export default function Contact() {
               {submitted && (
                 <div className="bg-green-600 text-white p-4 rounded mb-6">
                   Thank You! We&apos;ll Be In Touch Soon
+                </div>
+              )}
+
+              {error && (
+                <div className="bg-red-600 text-white p-4 rounded mb-6">
+                  {error}
                 </div>
               )}
 
@@ -108,8 +130,12 @@ export default function Contact() {
                   rows={6}
                   className="w-full bg-white text-black px-4 py-3 rounded placeholder-gray-500"
                 />
-                <button type="submit" className="btn-primary">
-                  SEND
+               <button
+                  type="submit"
+                  disabled={sending}
+                  className="btn-primary disabled:opacity-60 disabled:cursor-not-allowed"
+                >
+                  {sending ? 'SENDING...' : 'SEND'}
                 </button>
               </form>
             </div>
