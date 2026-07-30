@@ -50,13 +50,12 @@ export default function Home() {
               <Link href="/contact" className="btn-primary inline-block">CONTACT US</Link>
             </div>
 
-            <div className="relative rounded overflow-hidden h-[500px] lg:h-[600px]">
+            <div className="relative h-[500px] lg:h-[600px]">
               <img
                 src="/2atms-v2.png"
                 alt="OSO ATM Machines"
                 className="w-full h-full object-contain"
               />
-              <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent" />
             </div>
           </div>
         </div>
