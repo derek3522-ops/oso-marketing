@@ -75,25 +75,25 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Complete ATM Solutions</h3>
-              <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-1 marker:text-oso-orange">
-                <li>Transaction Processing – Fast, Reliable, And Automatic</li>
-                <li>ATM Equipment Sales & Financing – Modern Machines With Flexible Options</li>
-                <li>Customized ATM Branding – Promote Your Business With Branded Units</li>
-                <li>Vault Cash Sourcing – Consistent Cash Flow, Fully Managed</li>
-                <li>Billing & Payment Management – Simple, Transparent Accounting</li>
-                <li>ATM Marketing – Increase Usage And Drive Revenue</li>
+              <h3 className="text-oso-orange text-2xl font-bold mb-4">Complete ATM Solutions</h3>
+              <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
+                <li><span className="text-white font-bold text-base">Transaction Processing</span> – Fast, Reliable, And Automatic</li>
+                <li><span className="text-white font-bold text-base">ATM Equipment Sales &amp; Financing</span> – Modern Machines With Flexible Options</li>
+                <li><span className="text-white font-bold text-base">Customized ATM Branding</span> – Promote Your Business With Branded Units</li>
+                <li><span className="text-white font-bold text-base">Vault Cash Sourcing</span> – Consistent Cash Flow, Fully Managed</li>
+                <li><span className="text-white font-bold text-base">Billing &amp; Payment Management</span> – Simple, Transparent Accounting</li>
+                <li><span className="text-white font-bold text-base">ATM Marketing</span> – Increase Usage And Drive Revenue</li>
               </ul>
             </div>
            <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Expert Support & Operations</h3>
+              <h3 className="text-oso-orange text-2xl font-bold mb-4">Expert Support & Operations</h3>
               <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
-                <li>Professional Installation – Turnkey ATM Placement</li>
-                <li>24/7 Monitoring & Real-Time Data – Stay Informed At All Times</li>
-                <li>First & Second Line Maintenance – Fast Issue Resolution</li>
-                <li>Local Technicians – Reliable, Hands-On Support</li>
-                <li>Mobile ATMs – Perfect For Events And Temporary Locations</li>
-                <li>ATM Protection – Custom Enclosures To Safeguard Your Investment</li>
+                <li><span className="text-white font-bold text-base">Professional Installation</span> – Turnkey ATM Placement</li>
+                <li><span className="text-white font-bold text-base">24/7 Monitoring &amp; Real-Time Data</span> – Stay Informed At All Times</li>
+                <li><span className="text-white font-bold text-base">First &amp; Second Line Maintenance</span> – Fast Issue Resolution</li>
+                <li><span className="text-white font-bold text-base">Local Technicians</span> – Reliable, Hands-On Support</li>
+                <li><span className="text-white font-bold text-base">Mobile ATMs</span> – Perfect For Events And Temporary Locations</li>
+                <li><span className="text-white font-bold text-base">ATM Protection</span> – Custom Enclosures To Safeguard Your Investment</li>
               </ul>
             </div>
           </div>
