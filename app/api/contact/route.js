@@ -1,9 +1,8 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const { firstName, lastName, phone, email, message } = await request.json();
 
     if (!firstName || !lastName || !phone || !email) {
