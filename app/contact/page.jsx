@@ -121,7 +121,7 @@ export default function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="text-oso-orange mr-3 shrink-0" size={20} />
-                  
+                  <a
                     href="tel:+18666762861"
                     className="text-oso-orange font-bold hover:text-orange-600"
                   >
@@ -130,7 +130,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="text-oso-orange mr-3 shrink-0" size={20} />
-                  
+                  <a
                     href="mailto:sales@osoatm.com"
                     className="text-oso-orange font-bold hover:text-orange-600"
                   >
