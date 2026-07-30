@@ -73,10 +73,9 @@ export default function Home() {
           <p className="text-center text-gray-300 mb-12 max-w-4xl mx-auto">
             From Installation To Ongoing Management, We Provide Everything You Need To Run A Successful ATM Program——Backed By Over 50 Years Of Combined Industry Experience
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div className="text-center">
               <h3 className="text-oso-orange text-lg font-bold mb-2">Complete ATM Solutions</h3>
-              <p className="text-gray-400 mb-3">Fast, Reliable and Automatic</p>
               <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-1 marker:text-oso-orange">
                 <li>Transaction Processing – Fast, Reliable, And Automatic</li>
                 <li>ATM Equipment Sales & Financing – Modern Machines With Flexible Options</li>
@@ -86,9 +85,16 @@ export default function Home() {
                 <li>ATM Marketing – Increase Usage And Drive Revenue</li>
               </ul>
             </div>
-            <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Administration</h3>
-              <p className="text-gray-400">Streamlined Operations</p>
+           <div className="text-center">
+              <h3 className="text-oso-orange text-lg font-bold mb-2">Expert Support & Operations</h3>
+              <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
+                <li>Professional Installation – Turnkey ATM Placement</li>
+                <li>24/7 Monitoring & Real-Time Data – Stay Informed At All Times</li>
+                <li>First & Second Line Maintenance – Fast Issue Resolution</li>
+                <li>Local Technicians – Reliable, Hands-On Support</li>
+                <li>Mobile ATMs – Perfect For Events And Temporary Locations</li>
+                <li>ATM Protection – Custom Enclosures To Safeguard Your Investment</li>
+              </ul>
             </div>
           </div>
         </div>
