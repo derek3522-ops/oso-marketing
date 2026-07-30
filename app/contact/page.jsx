@@ -46,7 +46,7 @@ export default function Contact() {
           <div className="max-w-3xl">
             <div>
               <h1 className="text-4xl font-bold mb-6 text-oso-orange">Contact Us!</h1>
-              <p className="text-oso-orange mb-8">Please Fill Out The Form Below</p>
+              <p className="text-white mb-8">Please Fill Out The Form Below</p>
 
               {submitted && (
                 <div className="bg-green-600 text-white p-4 rounded mb-6">
