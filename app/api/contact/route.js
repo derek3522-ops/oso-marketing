@@ -12,7 +12,7 @@ export async function POST(request) {
     const name = `${firstName} ${lastName}`;
 
     await resend.emails.send({
-      from: 'OSO ATM Website <contact@mail.osoatm.com>',
+      from: 'OSO ATM Website <contact@osoatm.com>',
       to: 'sales@osoatm.com',
       replyTo: email,
       subject: `Website Contact Form — ${name}`,
