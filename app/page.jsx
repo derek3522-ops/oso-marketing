@@ -66,7 +66,7 @@ export default function Home() {
         <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 h-px w-2/3 bg-gradient-to-r from-transparent via-orange-500/40 to-transparent" />
 
         <div className="container relative z-10">
-          <h2 className="text-4xl font-bold mb-12 text-center text-oso-orange">WHY OSO ATM</h2>
+          <h2 className="text-6xl font-bold mb-12 text-center text-oso-orange">WHY OSO ATM</h2>
           <p className="text-center text-gray-300 mb-12 max-w-4xl mx-auto">
             OSO ATM Is Your Full-Service Partner For Managing And Growing ATM Operations. We Help Businesses Maximize Revenue With Reliable Processing, Expert Support, And Industry-Leading Technology
           </p>
@@ -75,7 +75,7 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div className="text-center">
-              <h3 className="text-oso-orange text-2xl font-bold mb-5">Complete ATM Solutions</h3>
+              <h3 className="text-oso-orange text-3xl font-bold mb-4">Complete ATM Solutions</h3>
               <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
                 <li><span className="text-white font-bold text-base">Transaction Processing</span> – Fast, Reliable, And Automatic</li>
                 <li><span className="text-white font-bold text-base">ATM Equipment Sales &amp; Financing</span> – Modern ATMs With Flexible Options</li>
@@ -86,7 +86,7 @@ export default function Home() {
               </ul>
             </div>
            <div className="text-center">
-              <h3 className="text-oso-orange text-2xl font-bold mb-5">Expert Support & Operations</h3>
+              <h3 className="text-oso-orange text-3xl font-bold mb-4">Expert Support & Operations</h3>
               <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
                 <li><span className="text-white font-bold text-base">Professional Installation</span> – Turnkey ATM Placement</li>
                 <li><span className="text-white font-bold text-base">24/7 Monitoring &amp; Real-Time Data</span> – Stay Informed At All Times</li>
