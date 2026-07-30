@@ -36,7 +36,8 @@ export default function Contact() {
           src="/BearRoar.png"
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover object-[30%_center]"
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{ transform: 'scale(1.5)', transformOrigin: 'left center' }}
         />
 
         {/* Dark overlay for text readability */}
