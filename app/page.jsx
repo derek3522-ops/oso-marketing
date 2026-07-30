@@ -78,7 +78,7 @@ export default function Home() {
               <h3 className="text-oso-orange text-2xl font-bold mb-4">Complete ATM Solutions</h3>
               <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
                 <li><span className="text-white font-bold text-base">Transaction Processing</span> – Fast, Reliable, And Automatic</li>
-                <li><span className="text-white font-bold text-base">ATM Equipment Sales &amp; Financing</span> – Modern Machines With Flexible Options</li>
+                <li><span className="text-white font-bold text-base">ATM Equipment Sales &amp; Financing</span> – Modern ATMs With Flexible Options</li>
                 <li><span className="text-white font-bold text-base">Customized ATM Branding</span> – Promote Your Business With Branded Units</li>
                 <li><span className="text-white font-bold text-base">Vault Cash Sourcing</span> – Consistent Cash Flow, Fully Managed</li>
                 <li><span className="text-white font-bold text-base">Billing &amp; Payment Management</span> – Simple, Transparent Accounting</li>
