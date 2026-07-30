@@ -52,7 +52,7 @@ export default function Home() {
 
             <div className="relative rounded overflow-hidden h-[500px] lg:h-[600px]">
               <img
-                src="/2atms.png"
+                src="/2atms-v2.png"
                 alt="OSO ATM Machines"
                 className="w-full h-full object-contain"
               />
