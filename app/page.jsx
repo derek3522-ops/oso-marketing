@@ -68,32 +68,27 @@ export default function Home() {
         <div className="container relative z-10">
           <h2 className="text-4xl font-bold mb-12 text-center text-oso-orange">WHY OSO ATM</h2>
           <p className="text-center text-gray-300 mb-12 max-w-4xl mx-auto">
-            We help companies manage their ATMs, kiosks, cash and electronic payments. We provide installation, data processing, on-site training, web-based reporting, real-time monitoring and back-end administrative support.
+            OSO ATM Is Your Full-Service Partner For Managing And Growing ATM Operations. We Help Businesses Maximize Revenue With Reliable Processing, Expert Support, And Industry-Leading Technology
+          </p>
+          <p className="text-center text-gray-300 mb-12 max-w-4xl mx-auto">
+            From Installation To Ongoing Management, We Provide Everything You Need To Run A Successful ATM Program——Backed By Over 50 Years Of Combined Industry Experience
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Transaction Processing</h3>
-              <p className="text-gray-400">Fast, Reliable and Automatic</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Installation Experts</h3>
-              <p className="text-gray-400">Professional Setup</p>
+              <h3 className="text-oso-orange text-lg font-bold mb-2">Complete ATM Solutions</h3>
+              <p className="text-gray-400 mb-3">Fast, Reliable and Automatic</p>
+              <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-1 marker:text-oso-orange">
+                <li>Transaction Processing – Fast, Reliable, And Automatic</li>
+                <li>ATM Equipment Sales & Financing – Modern Machines With Flexible Options</li>
+                <li>Customized ATM Branding – Promote Your Business With Branded Units</li>
+                <li>Vault Cash Sourcing – Consistent Cash Flow, Fully Managed</li>
+                <li>Billing & Payment Management – Simple, Transparent Accounting</li>
+                <li>ATM Marketing – Increase Usage And Drive Revenue</li>
+              </ul>
             </div>
             <div className="text-center">
               <h3 className="text-oso-orange text-lg font-bold mb-2">Administration</h3>
               <p className="text-gray-400">Streamlined Operations</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Local Technicians</h3>
-              <p className="text-gray-400">Expert Support</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Real-time Data</h3>
-              <p className="text-gray-400">Live Monitoring</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-oso-orange text-lg font-bold mb-2">Armored Transport</h3>
-              <p className="text-gray-400">Secure Delivery</p>
             </div>
           </div>
         </div>
