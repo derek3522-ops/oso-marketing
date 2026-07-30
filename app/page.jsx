@@ -75,7 +75,7 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div className="text-center">
-              <h3 className="text-oso-orange text-2xl font-bold mb-4">Complete ATM Solutions</h3>
+              <h3 className="text-oso-orange text-2xl font-bold mb-5">Complete ATM Solutions</h3>
               <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
                 <li><span className="text-white font-bold text-base">Transaction Processing</span> – Fast, Reliable, And Automatic</li>
                 <li><span className="text-white font-bold text-base">ATM Equipment Sales &amp; Financing</span> – Modern ATMs With Flexible Options</li>
@@ -86,7 +86,7 @@ export default function Home() {
               </ul>
             </div>
            <div className="text-center">
-              <h3 className="text-oso-orange text-2xl font-bold mb-4">Expert Support & Operations</h3>
+              <h3 className="text-oso-orange text-2xl font-bold mb-5">Expert Support & Operations</h3>
               <ul className="inline-block text-left list-disc pl-5 text-gray-400 text-sm space-y-2 marker:text-oso-orange">
                 <li><span className="text-white font-bold text-base">Professional Installation</span> – Turnkey ATM Placement</li>
                 <li><span className="text-white font-bold text-base">24/7 Monitoring &amp; Real-Time Data</span> – Stay Informed At All Times</li>
