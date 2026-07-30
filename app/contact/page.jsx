@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { Phone, Mail } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -44,9 +43,8 @@ export default function Contact() {
         <div className="absolute inset-0 bg-black/40" />
 
         <div className="container relative z-10 py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Form */}
-            <div className="lg:col-span-2">
+          <div className="max-w-3xl">
+            <div>
               <h1 className="text-4xl font-bold mb-6 text-oso-orange">Contact Us!</h1>
               <p className="text-oso-orange mb-8">Please Fill Out The Form Below</p>
 
@@ -114,31 +112,6 @@ export default function Contact() {
                   SEND
                 </button>
               </form>
-            </div>
-
-            {/* Contact Info */}
-            <div className="bg-white rounded p-8 h-fit">
-              <h3 className="text-lg font-bold text-black mb-6">General Enquiries</h3>
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <Phone className="text-oso-orange mr-3 shrink-0" size={20} />
-                  <a
-                    href="tel:+18666762861"
-                    className="text-oso-orange font-bold hover:text-orange-600"
-                  >
-                    866-OSO-ATM1
-                  </a>
-                </div>
-                <div className="flex items-center">
-                  <Mail className="text-oso-orange mr-3 shrink-0" size={20} />
-                  <a
-                    href="mailto:sales@osoatm.com"
-                    className="text-oso-orange font-bold hover:text-orange-600"
-                  >
-                    sales@osoatm.com
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
