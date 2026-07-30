@@ -80,7 +80,7 @@ export default function Home() {
             OSO ATM Is Your Full-Service Partner For Managing And Growing ATM Operations. We Help Businesses Maximize Revenue With Reliable Processing, Expert Support, And Industry-Leading Technology
           </p>
           <p className="text-center text-gray-300 mb-12 max-w-4xl mx-auto">
-            From Installation To Ongoing Management, We Provide Everything You Need To Run A Successful ATM Program——Backed By Over 50 Years Of Combined Industry Experience
+            From Installation To Ongoing Management, We Provide Everything You Need To Run A Successful ATM Program—Backed By Over 50 Years Of Combined Industry Experience
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div className="text-center">
