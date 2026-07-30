@@ -13,7 +13,7 @@ export default function Home() {
 
         {/* Faded grid */}
         <div
-          className="pointer-events-none absolute inset-0 z-0 opacity-[0.06]"
+          className="pointer-events-none absolute inset-0 z-0 opacity-[0.08]"
           style={{
             backgroundImage:
               'linear-gradient(#f97316 1px, transparent 1px), linear-gradient(90deg, #f97316 1px, transparent 1px)',
